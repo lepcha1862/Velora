@@ -11,10 +11,12 @@ import { Menu, X, Search, Sun, Moon, Compass } from 'lucide-react';
 // ============================================================
 const defaultNavItems = [
   { name: 'Home', href: '/' },
+  { name: 'Why Choose Us', href: '/whychooseus' },
+  { name: 'About', href: '/about' },
   { name: 'Destinations', href: '/destinations' },
   { name: 'Culture', href: '/culture' },
   { name: 'Experiences', href: '/experiences' },
-  { name: 'About', href: '/about' },
+  { name: 'Blog', href: '/blog' },
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -103,9 +105,10 @@ export default function Navbar({
             ) : (
               <Compass className="h-7 w-7 text-primary" strokeWidth={2} />
             )}
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent">
               {agencyName}
             </span>
+
           </Link>
 
           {/* ---------- Desktop Navigation (Center) ---------- */}

@@ -12,22 +12,22 @@ import Image from 'next/image';
 const HERO_IMAGES = [
   {
     id: 1,
-    url: 'https://images.unsplash.com/photo-1585421514286-efb74c2b432c?w=1920&q=80', // Tiger's Nest
+    url: 'https://www.shutterstock.com/image-photo/taktshang-goembatigers-nest-monastery-bhutan-600w-242969983.jpg', // Tiger's Nest
     alt: 'Tiger\'s Nest Monastery, Bhutan',
   },
   {
     id: 2,
-    url: 'https://images.unsplash.com/photo-1587132137052-9fc5b4e1b8b3?w=1920&q=80', // Punakha Dzong
+    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7tZCIiLzhkSr_zS_EMU76DamPOZAigys5P1lrTuH079PEeY7AGZnUAEY&s=10', // Punakha Dzong
     alt: 'Punakha Dzong, Bhutan',
   },
   {
     id: 3,
-    url: 'https://images.unsplash.com/photo-1602320128454-1e6a3bfb15e8?w=1920&q=80', // Himalayan valley
+    url: 'https://thumbs.dreamstime.com/b/colorful-prayer-flags-over-himalayan-valley-near-khangsar-nepal-colorful-prayer-flags-hang-above-forested-mountain-valley-422254555.jpg', // Himalayan valley
     alt: 'Himalayan valley with prayer flags',
   },
   {
     id: 4,
-    url: 'https://images.unsplash.com/photo-1621839673705-6617adf9e890?w=1920&q=80', // Dochula Pass
+    url: 'https://wanderon-images.gumlet.io/gallery/new/2025/05/06/1746528282075-history-of-108-stupas-at-dochula-pass.jpg', // Dochula Pass
     alt: 'Dochula Pass clouds',
   },
 ];
@@ -37,25 +37,25 @@ const DESTINATIONS = [
     id: 1,
     name: 'Tiger\'s Nest',
     caption: 'Monastery perched on a cliff edge',
-    image: 'https://images.unsplash.com/photo-1585421514286-efb74c2b432c?w=400&q=80',
+    image: 'https://www.insidehimalayas.com/wp-content/uploads/2016/12/Tiger-Nest.jpg',
   },
   {
     id: 2,
     name: 'Punakha Dzong',
     caption: 'Palace of great happiness',
-    image: 'https://images.unsplash.com/photo-1587132137052-9fc5b4e1b8b3?w=400&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR-ZXwIzd5JhukZycasYBgQINMj8J01917hEpJpBEdYVcHWUk-BKoHVFRL&s=10',
   },
   {
     id: 3,
     name: 'Bumthang Valley',
     caption: 'Spiritual heartland of Bhutan',
-    image: 'https://images.unsplash.com/photo-1602320128454-1e6a3bfb15e8?w=400&q=80',
+    image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/51/b0/4e/caption.jpg?w=500&h=400&s=1',
   },
   {
     id: 4,
     name: 'Dochula Pass',
     caption: 'Where clouds meet the Himalayas',
-    image: 'https://images.unsplash.com/photo-1621839673705-6617adf9e890?w=400&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNniLa6fuuFidHoggdwRc9CredFUHsSYGIW4jPa9hr84pNQtgtAt0ccak&s=10',
   },
 ];
 

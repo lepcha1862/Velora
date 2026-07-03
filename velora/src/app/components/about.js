@@ -10,36 +10,36 @@ import { Play, ArrowRight } from 'lucide-react';
 // 1. Configuration
 // ============================================================
 const STATS = [
-  { label: 'Himalayan Kingdom', value: '🏔️' },
-  { label: 'Ancient Monasteries', value: '🏯' },
-  { label: 'Vibrant Festivals', value: '🎭' },
-  { label: 'Carbon-Negative Nation', value: '🌱' },
-  { label: 'Gross National Happiness', value: '😊' },
-  { label: 'Protected Forests', value: '🌲' },
+  { label: 'Himalayan Kingdom', value: '' },
+  { label: 'Ancient Monasteries', value: '' },
+  { label: 'Vibrant Festivals', value: '' },
+  { label: 'Carbon-Negative Nation', value: '' },
+  { label: 'Gross National Happiness', value: '' },
+  { label: 'Protected Forests', value: '' },
 ];
 
 const COLLAGE_IMAGES = [
   {
     id: 1,
-    url: 'https://images.unsplash.com/photo-1585421514286-efb74c2b432c?w=600&q=80',
+    url: 'https://images.goway.com/production/hero/iStock-1365761018-.jpg?VersionId=1rADrnZhL5R4Uy2Qzsmycmj9ljVbxYvo',
     alt: 'Tiger\'s Nest Monastery',
     className: 'col-span-1 row-span-2',
   },
   {
     id: 2,
-    url: 'https://images.unsplash.com/photo-1587132137052-9fc5b4e1b8b3?w=600&q=80',
+    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqCI9SCFnEExa7_JvcgIHdN6r9ipJZEoLFoD_5vgeFqWXwNpE0fL49t2Vr&s=10',
     alt: 'Punakha Dzong',
     className: 'col-span-1 row-span-1',
   },
   {
     id: 3,
-    url: 'https://images.unsplash.com/photo-1602320128454-1e6a3bfb15e8?w=600&q=80',
+    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiun38req374BMZQY7Q-cKuYBbn_V4NZiVTsJi_to0Ta1dVQndNND61hIx&s=10',
     alt: 'Prayer flags',
     className: 'col-span-1 row-span-1',
   },
   {
     id: 4,
-    url: 'https://images.unsplash.com/photo-1621839673705-6617adf9e890?w=600&q=80',
+    url: 'https://www.andbeyond.com/wp-content/uploads/sites/5/Image-02-1.jpg',
     alt: 'Himalayan landscape',
     className: 'col-span-2 row-span-1',
   },
